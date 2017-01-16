@@ -1,0 +1,133 @@
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headings-font-color !important;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: $body-font-size;
+  margin-top: 1.5 * $body-font-size;
+}
+
+h1, h2 {
+  margin-bottom: 1.5 * $body-font-size;
+  margin-top: 2 * $body-font-size;
+}
+
+h1 {
+  font-size: 1.6 * $body-font-size;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 1.4 * $body-font-size;
+}
+h3 {
+  font-size: 1.2 * $body-font-size;
+}
+h4 {
+  font-size: 1.1 * $body-font-size;
+}
+h5 {
+  font-size: 1 * $body-font-size;
+}
+h6 {
+  font-size: 0.9 * $body-font-size;
+}
+
+p,
+ul,
+ol {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 30px;
+  color: $font-color;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-left: 25px;
+
+  li {
+    list-style-position: outside;
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+}
+
+li > ul, li > ol {
+  margin-top: 15px;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  font-weight: $headings-font-weight;
+}
+
+// Break long strings to prevent x-scrolling
+code,
+pre,
+.word-wrap {
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+pre, code {
+  font-family: $font-family-monospace;
+}
+
+pre {
+  display: block;
+  width: 96%;
+  margin: 1em 0;
+  background: $grey-light;
+  padding: 2%;
+  white-space: pre-wrap;
+  font-size: 0.9 * $body-font-size;
+}
+
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  padding-top: $body-font-size;
+  padding-bottom: $body-font-size;
+  padding-left: 2 * $body-font-size;
+  padding-right: 2 * $body-font-size;
+  border-left: 4px solid $grey-medium;
+  font-style: italic;
+  margin: 2em 0;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+mark {
+  background: #ff0;
+}
+
+dl {
+  dt {
+    font-weight: $headings-font-weight;
+  }
+
+  dd {
+    margin-left: 2 * $body-font-size;
+  }
+}

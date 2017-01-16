@@ -1,0 +1,30 @@
+// #reader-view {
+//   table {
+//     width: 100%;
+//     max-width: 100%;
+//     margin: 1em auto;
+//     border-collapse: collapse;
+//     th, td {
+//       padding: 6px;
+//       text-align: left;
+//     }
+
+//     border: 1px solid $grey-medium;
+//     > thead,
+//     > tbody,
+//     > tfoot {
+//       > tr {
+//         > th,
+//         > td {
+//           border: 1px solid $grey-medium;
+//         }
+//       }
+//     }
+//     > thead > tr {
+//       > th,
+//       > td {
+//         border-bottom-width: 2px;
+//       }
+//     }
+//   }
+// }

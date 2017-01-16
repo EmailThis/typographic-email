@@ -1,0 +1,88 @@
+/* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+/* CLIENT-SPECIFIC STYLES */
+body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+figure {margin: 0;padding:0}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+
+/* iOS BLUE LINKS */
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] { margin: 0 !important; }
+
+table,
+td,
+div,
+a {
+  box-sizing: border-box;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid $grey-medium;
+}
+
+body, .body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+// Let's make sure all tables have defaults
+table {
+  border-collapse: separate !important;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+  width: 100%;
+
+  td {
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+    vertical-align: top;
+  }
+}
+
+// External class fix for Outlook.com
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+
+strong, b {
+  font-weight: $headings-font-weight;
+}

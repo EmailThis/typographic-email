@@ -1,0 +1,62 @@
+/* -------------------------------------
+    CONFIGURE YOUR VARIABLES
+------------------------------------- */
+
+$padding: 30px; // For consistent padding
+$width: 580px; // Width of the content area
+$br: 0px; // Border radius
+$btn-br: $br; // Border radius
+
+
+// Colors
+// -------
+$grey-light: #f6f6f6; 
+$grey-medium: #cccccc; 
+$grey-dark: #7F7F7F; 
+$white: #ffffff;
+$black: #111111;
+$primary-color: #348eda; 
+$font-color: $black; 
+$headings-font-color: #222222; 
+
+
+// Typography
+// -------
+
+// $font-family-sans-serif:  "Open Sans", "Fira Sans", "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif !default;
+// $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+$font-family-sans-serif:  "Roboto", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+$body-font-family:          $font-family-serif !default;
+$headings-font-family:      $font-family-sans-serif !default;
+$body-font-weight:          normal !default;
+$headings-font-weight:      bold !default;
+$body-font-size:            20px !default;
+$body-font-size-sm:         18px !default;
+$body-font-color:           #222222 !default;
+$body-line-height:          1.5 !default;
+$body-bg:                   $white !default;
+
+// Notices
+// -------
+
+$notice-color-info:         #3d88ce !default;
+$notice-color-success:      #81ad22 !default;
+$notice-color-warning:      #c6a121 !default;
+$notice-color-danger:       #be2c2c !default;
+
+$notice-border-radius:      $br !default;
+$notice-font-size:          $body-font-size !default;
+$notice-font-weight:        $body-font-weight !default;
+$notice-line-height:        $body-line-height !default;
+$notice-padding:            8px 12px !default;
+$notice-margin:             12px 0 !default;
+
+// Dividers
+// --------
+
+$divider-margin:			20px 0 !default;
+$divider-color:				#ccc !default;
