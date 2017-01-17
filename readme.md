@@ -2,6 +2,7 @@
 
 This is a responsive email template that is optimized for readability. This is used in my project - [EmailThis](https://www.emailthis.me). I created it because I needed a simple, minimal yet beautiful email template that focusses specifically on readability.
 
+### [Demo](https://rawgit.com/EmailThis/typographic-email/master/dist/kitchen_sink.html)
 
 **Side note:** Do check out EmailThis. It is a simpler alternative to Pocket/Readability/Instapaper. EmailThis will remove distractions & ads from an article or web page and send you a nice email with just the text/images. You can then open up the email client on your laptop/mobile and read the article at your leisure. It is completely free, try it out here - [https://www.emailthis.me](https://www.emailthis.me).
 
