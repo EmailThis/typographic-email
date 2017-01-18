@@ -14,7 +14,6 @@
 
 .et-notice {
   border-collapse: separate;
-
   &-spacer {
     padding: $notice-margin;
   }
@@ -23,6 +22,12 @@
     line-height: $notice-line-height;
     font-size: $notice-font-size;
     font-weight: $notice-font-weight;
+    font-family: $font-family-sans-serif;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
   }
 
   // Color Variations
